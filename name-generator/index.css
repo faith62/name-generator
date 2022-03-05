@@ -1,6 +1,10 @@
 .jumbotron{
     text-align: center;
 }
+#intro{
+    margin-top:5%;
+}
+
 #date-input{
     margin-left: 20%;
     margin-right: 50%;
