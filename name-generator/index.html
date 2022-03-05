@@ -19,26 +19,24 @@
       <p>This is a website that takes in the user's birthday date, thereafter calculates the day of the week one is born. Depending on the gender: male or female it outputs one's Akan Name</p>
       <p>Akan names are used by the Akan people of Ghana and Ivory Coast.Frequently in Ghana, children are being given their first names as 'day name' in which it corressponds to the day of the week one is born.</p>
     </div>
-    <form class="container">
-      <div class="mb-3">
+    <form class="container" id="form">
+      <div class="mb-3" id="date-input">
         <label  class="form-label">Select your date of birth:</label>
         <input type="date" class="form-control" id="dateInput" aria-describedby="emailHelp">
         
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+      <div class="gender">
+        <label  class="form-label">Select your gender:</label>
+        <div class="mb-3 form-check">
+          <input type="radio" name="agree" value="male">
+          <label class="form-check-label" for="exampleCheck1">Male</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="radio" name="agree" value ="female">
+          <label >Female</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-      <label  class="form-label">Select your gender:</label>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Male</label>
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Female</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
       
     <!-- Optional JavaScript -->
