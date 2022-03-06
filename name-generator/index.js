@@ -1,10 +1,7 @@
 let maleNames=["Kwasi", "Kwando", "kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames=["Akosua", "Adwoa", "Abenaa"," Akua", "Yaa", "Afua", "Ama"]
 
-
 const btn = document.getElementById("submitButton")
-
-
 
 btn.addEventListener('click',(e) => {
     e.preventDefault()
@@ -24,19 +21,16 @@ btn.addEventListener('click',(e) => {
     //  let dayOfTheWeek =(((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7
     //  let d= dayOfTheWeek.toFixed();
  
-    //  console.log(date);
-    // console.log(CC);
-    // console.log(YY);
-    // console.log(MM);
-    // console.log(d);
+    
 
     if(male){
-       result.innerHTML= `Your Akan name is ${maleNames[dayOfTheWeek]}`;
+       result.innerHTML= `Your Akan name is: ${maleNames[dayOfTheWeek]}`;
     }
     else if(female)
     {
-        result.innerHTML= `Your Akan name is ${femaleNames[dayOfTheWeek]}`;
+        result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]}`;
     }
 })
 
+ 
 
