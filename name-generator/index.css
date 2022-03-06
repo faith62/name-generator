@@ -1,6 +1,12 @@
 .jumbotron{
+    height: 30vh;
     text-align: center;
+    background-image: url(https://us.123rf.com/450wm/mehaniq/mehaniq1912/mehaniq191202840/135359842-ghana-flag-depicted-in-paint-colors-on-old-stone-wall-close-up-textured-banner-on-rock-wall-backgrou.jpg?ver=6);
+    
+    background-repeat: no-repeat;
+    background-size:cover;
 }
+
 #intro{
     margin-top:5%;
 }
