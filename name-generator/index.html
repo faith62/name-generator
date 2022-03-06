@@ -22,17 +22,17 @@
     <form class="container" id="form">
       <div class="mb-3" id="date-input">
         <label  class="form-label">Select your date of birth:</label>
-        <input type="date" id="dateInput"  aria-describedby="emailHelp">
+        <input type="date" id="dateInput"  oninput="clearoutput()">
         
       </div>
       <div class="gender">
         <label  class="form-label">Select your gender:</label>
         <div class="mb-3 form-check">
-          <input type="radio" name="agree" value="male" id="radioMale">
+          <input type="radio" name="agree" value="male" id="radioMale" oninput="clearoutput()">
           <label class="form-check-label" for="exampleCheck1">Male</label>
         </div>
         <div class="mb-3 form-check">
-          <input type="radio" name="agree" value ="female" id="radioFemale">
+          <input type="radio" name="agree" value ="female" id="radioFemale" oninput="clearoutput()">
           <label >Female</label>
         </div>
         <button type="submit" id="submitButton">Submit</button>
