@@ -15,6 +15,10 @@
    
 
 }
+#result{
+    font-weight: bold;
+    margin-top: 5%;
+}
 
 .page-footer{
     background-color: black;
