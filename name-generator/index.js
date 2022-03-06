@@ -1,4 +1,11 @@
+let maleNames=[Kwasi, Kwando, kwabena, Kwaku, Yaw, Kofi, Kwame];
+let femaleNames=[Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama]
+
+
 const btn = document.getElementById("submitButton")
+
+const male = document.getElementById("radioMale").checked
+const female = document.getElementById("radioFemale").checked
 
 btn.addEventListener('click',(e) => {
     e.preventDefault()
@@ -10,7 +17,8 @@ btn.addEventListener('click',(e) => {
     let MM = parseInt(newDate.slice(5,7));
     let DD = parseInt(newDate.slice(8,10));
 
-     let d =(((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7
+     let dayOfTheWeek =(((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7
+     let d= dayOfTheWeek.toFixed();
  
      console.log(date);
     console.log(CC);
@@ -18,6 +26,7 @@ btn.addEventListener('click',(e) => {
     console.log(MM);
     console.log(d);
 
-
+    
 })
+
 
