@@ -24,13 +24,15 @@ btn.addEventListener('click',(e) => {
     
 
     if(male){
-       result.innerHTML= `Your Akan name is: ${maleNames[dayOfTheWeek]}`;
+       result.innerHTML= `Your Akan name is: ${maleNames[dayOfTheWeek]} .`;
     }
     else if(female)
     {
-        result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]}`;
+        result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]} .`;
     }
 })
-
+ function clearOutput(){
+     document.getElementById("result").innerHTML="";
+ }
  
 
