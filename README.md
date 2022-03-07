@@ -28,7 +28,7 @@ This is a website that takes the user's input as birthday date , then calculates
  ### Bugs
  <p>Have you seen any bug? Contact me.</p>
 
- ##### Link to LIve Site :[]
+ ##### Link to LIve Site :[https://faith62.github.io/name-generator/]
 
  ## Authors Info
 Email: phifeichemu@gmail.com
