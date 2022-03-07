@@ -1,10 +1,23 @@
+/* body{
+    background-image: url(https://thumbs.dreamstime.com/b/soft-gray-abstract-background-blurred-texture-147113126.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 .jumbotron{
-    height: 30vh;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 20vh;
     text-align: center;
-    background-image: url(https://us.123rf.com/450wm/mehaniq/mehaniq1912/mehaniq191202840/135359842-ghana-flag-depicted-in-paint-colors-on-old-stone-wall-close-up-textured-banner-on-rock-wall-backgrou.jpg?ver=6);
- 
+    background-image: url(https://i.pinimg.com/736x/c3/b9/f3/c3b9f35f2bf432a0d95afb5f287aa9e4.jpg);
+
+    
     background-repeat: no-repeat;
     background-size:cover;
+    /* max-height: fit-content; */
+    
+}
+
 }
 
 #intro{
@@ -21,8 +34,25 @@
    
 
 }
+.form-label{
+    font-weight: bold;
+}
+#submitButton{
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
 .resetBtn{
-     margin-top: 5%;
+     margin-top: 2%;
+    
+    
+}
+.resetBtn button{
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
     
 }
 #result{
@@ -31,7 +61,7 @@
 }
 
 .page-footer{
-    background-color: black;
+    background-color: rgb(148, 50, 50);
     
 
 }
