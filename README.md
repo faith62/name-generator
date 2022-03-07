@@ -1,6 +1,8 @@
 # name-generator
 ### Project description
 This is a website that takes the user's input as birthday date , then calculates the day of the week they were born and depending on their gender outputs one's Akan Name.Akan Names are derived from Ghanian culture. FRequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+
+![Landing Page](https://github.com/faith62/name-generator/blob/master/landing%20Page%20.png)
 ### By Faith Chemutai ,06/03/2022
 ## Setup/instalation Requirements
 *You need to have a vs code/ atom installed
