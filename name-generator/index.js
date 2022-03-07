@@ -30,8 +30,19 @@ btn.addEventListener('click',(e) => {
     {
         result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]} .`;
     }
+    else{
+        alert("You did not submit correct details!")
+    }
+    
+    // let frm = document.getElementById("form");
+    // frm.reset();
+    
 })
+
  function clearResult(){
+    let frm = document.getElementById("form");
+    frm.reset(); 
+
      document.getElementById("result").innerHTML = " ";
  }
  
