@@ -31,8 +31,8 @@ btn.addEventListener('click',(e) => {
         result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]} .`;
     }
 })
- function clearOutput(){
-     document.getElementById("result").innerHTML="";
+ function clearResult(){
+     document.getElementById("result").innerHTML = " ";
  }
  
 

@@ -35,7 +35,12 @@
           <input type="radio" name="agree" value ="female" id="radioFemale" oninput="clearoutput()">
           <label >Female</label>
         </div>
-        <button type="submit" id="submitButton">Submit</button>
+        <div>
+          <button type="submit" id="submitButton" >Submit</button>
+        </div>
+        <div class="resetBtn">
+            <button type="reset" id="submitButton" onclick="clearResult(); return false;">Reset</button>
+        </div>
       </div>
     </form>
     <div class="container">
