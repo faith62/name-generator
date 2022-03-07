@@ -1,4 +1,4 @@
-let maleNames=["Kwasi", "Kwando", "kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let maleNames=["Kwasi", "Kwando", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femaleNames=["Akosua", "Adwoa", "Abenaa"," Akua", "Yaa", "Afua", "Ama"]
 
 const btn = document.getElementById("submitButton")
@@ -30,7 +30,7 @@ btn.addEventListener('click',(e) => {
         result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]} .`;
     }
     else{
-        alert("You did not submit correct details!")
+        alert("You did not submit correct details! please select your birthdate and gender.")
     }
     
     // let frm = document.getElementById("form");
@@ -43,7 +43,7 @@ btn.addEventListener('click',(e) => {
     frm.reset(); 
 
     document.getElementById("result").innerHTML = " ";
-    alert("The form has been reset!")
+    alert("The form will be reset reset!")
  }
  
 
