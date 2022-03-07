@@ -3,6 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
+body{
+    background-color: rgb(238, 227, 228)
+    ;
+}
 .jumbotron{
     color: white;
     font-weight: bold;
