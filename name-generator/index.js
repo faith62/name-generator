@@ -11,7 +11,7 @@ btn.addEventListener('click',(e) => {
      
     const dateInput = document.getElementById("dateInput").value
     let date= new Date(dateInput)
-     let dayOfTheWeek =date.getDay();
+    let dayOfTheWeek =date.getDay();
     // const newDate= date.toString()
     // let CC = parseInt(newDate.slice(0,2));
     // let YY = parseInt(newDate.slice(2,4));
@@ -26,8 +26,7 @@ btn.addEventListener('click',(e) => {
     if(male){
        result.innerHTML= `Your Akan name is: ${maleNames[dayOfTheWeek]} .`;
     }
-    else if(female)
-    {
+    else if(female){
         result.innerHTML= `Your Akan name is: ${femaleNames[dayOfTheWeek]} .`;
     }
     else{
@@ -43,7 +42,8 @@ btn.addEventListener('click',(e) => {
     let frm = document.getElementById("form");
     frm.reset(); 
 
-     document.getElementById("result").innerHTML = " ";
+    document.getElementById("result").innerHTML = " ";
+    alert("The form has been reset!")
  }
  
 
