@@ -1,0 +1,74 @@
+/* body{
+    background-image: url(https://thumbs.dreamstime.com/b/soft-gray-abstract-background-blurred-texture-147113126.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+body{
+    background-color: rgb(238, 227, 228)
+    ;
+}
+.jumbotron{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 20vh;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/c3/b9/f3/c3b9f35f2bf432a0d95afb5f287aa9e4.jpg);
+
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* max-height: fit-content; */
+    
+}
+
+
+
+#intro{
+    margin-top:5%;
+}
+
+.date-input{
+    margin-left: 20%;
+    margin-right: 60%;
+    margin-top: 5%;
+}
+.gender{
+    margin-left: 20%;
+   
+
+}
+.form-label{
+    font-weight: bold;
+}
+#submitButton{
+    border-radius: 10px;
+    background-color: rgb(97,71,73);
+    color: white;
+    font-weight: bold;
+}
+.resetBtn{
+     margin-top: 2%;
+    
+    
+}
+.resetBtn button{
+    border-radius: 10px;
+    background-color:rgb(97,71,73);
+    color: white;
+    font-weight: bold;
+    
+}
+#result{
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.page-footer{
+    background-color:rgb(97,71,73);
+    
+
+}
+.footer-copyright{
+    color: white;
+}
