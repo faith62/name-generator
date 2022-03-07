@@ -39,7 +39,7 @@
 }
 #submitButton{
     border-radius: 10px;
-    background-color: brown;
+    background-color: rgb(97,71,73);
     color: white;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@
 }
 .resetBtn button{
     border-radius: 10px;
-    background-color: brown;
+    background-color:rgb(97,71,73);
     color: white;
     font-weight: bold;
     
@@ -61,7 +61,7 @@
 }
 
 .page-footer{
-    background-color: rgb(148, 50, 50);
+    background-color:rgb(97,71,73);
     
 
 }
